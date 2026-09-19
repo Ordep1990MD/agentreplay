@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "benchmark_version": "0.1.0",
+  "scenario": "timeout-after-write",
+  "outcome": "completed",
+  "actions": [
+    {"tool": "create_issue", "arguments": {"repo": "demo/support", "title": "Login fails on Safari", "body": "The sign-in button returns to the login screen on Safari."}},
+    {"tool": "create_issue", "arguments": {"repo": "demo/support", "title": "Login fails on Safari", "body": "The sign-in button returns to the login screen on Safari."}}
+  ]
+}
