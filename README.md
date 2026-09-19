@@ -110,7 +110,7 @@ python -m unittest discover -s tests -v
 python -m agentreplay run --agent cautious --output artifacts/ci
 ```
 
-Every run creates `results.json` and `report.html`. Exit codes: `0` all passed, `1` assertion failure, `2` invalid CLI input. `demo` intentionally exits `0` when both demonstrations execute, even though naive fails. The supplied GitHub Actions workflow tests Python 3.10, 3.12 and 3.13 and uploads reports. The workflow is prepared; remote CI has not yet run.
+Every run creates `results.json` and `report.html`. Exit codes: `0` all passed, `1` assertion failure, `2` invalid CLI input. `demo` intentionally exits `0` when both demonstrations execute, even though naive fails. The supplied GitHub Actions workflow tests Python 3.10, 3.12 and 3.13 and uploads reports. [View CI runs](https://github.com/Ordep1990MD/agentreplay/actions). The first published revision passed all three Python environments.
 
 ## Compare two versions of an agent
 
