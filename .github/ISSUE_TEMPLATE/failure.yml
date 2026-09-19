@@ -1,0 +1,25 @@
+name: Reproducible agent failure
+description: Propose a small failure case using synthetic data.
+title: "[Scenario] "
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+      description: What should exist or remain unchanged after the task?
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: Include tool calls and final state. Remove all secrets and personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Include version, configuration and synthetic fixture or trace.
+    validations:
+      required: true
